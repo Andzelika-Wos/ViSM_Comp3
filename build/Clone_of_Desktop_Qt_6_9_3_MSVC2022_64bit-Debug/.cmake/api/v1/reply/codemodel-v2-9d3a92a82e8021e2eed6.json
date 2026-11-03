@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8b87acf50630581f20ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ViSM_Comp3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PreBuildCommandCF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PreBuildCommandCF-Debug-c1ae473253a9336ebeb9.json",
+					"name" : "PreBuildCommandCF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PreBuildCommandCV::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PreBuildCommandCV-Debug-1c03e4547f86be786629.json",
+					"name" : "PreBuildCommandCV",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PreBuildCommandTF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PreBuildCommandTF-Debug-3b907a69fd2f52434e61.json",
+					"name" : "PreBuildCommandTF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PreBuildCommandTV::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PreBuildCommandTV-Debug-c1dc66f8bb2fb0a337a7.json",
+					"name" : "PreBuildCommandTV",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Shaders::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Shaders-Debug-e48203c56ed200661408.json",
+					"name" : "Shaders",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ViSM_Comp3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ViSM_Comp3-Debug-d62ee9aefb72ab2e3d2d.json",
+					"name" : "ViSM_Comp3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ViSM_Comp3_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ViSM_Comp3_autogen-Debug-a6b9f5ed9c5c1ddb54f9.json",
+					"name" : "ViSM_Comp3_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ViSM_Comp3_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ViSM_Comp3_autogen_timestamp_deps-Debug-f7b982b65475dfc754a0.json",
+					"name" : "ViSM_Comp3_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug",
+		"source" : "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

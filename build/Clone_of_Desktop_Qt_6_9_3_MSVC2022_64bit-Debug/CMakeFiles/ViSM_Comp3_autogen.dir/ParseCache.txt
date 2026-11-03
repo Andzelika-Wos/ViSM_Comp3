@@ -218,10 +218,11 @@ A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/MainWindow.h
 A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/HeightMap.h
 A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/Ball.h
 A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/Renderer.h
+A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/BSplineSurface.cpp
 A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/Camera.h
 A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/PhysicsBody.h
-A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/RollingBall.h
 A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/ObjMesh.h
+A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/RollingBall.h
 A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/Input.h
 A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/Terrain.h
 A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/Triangle.h
@@ -505,3 +506,4 @@ A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/visualobject.cpp
 A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/WorldAxis.cpp
 A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/enemy.cpp
 A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/main.cpp
+A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/BSplineSurface.h

@@ -387,6 +387,12 @@
 	"HEADERS" : 
 	[
 		[
+			"A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/BSplineSurface.h",
+			"MU",
+			"EWIEGA46WW/moc_BSplineSurface.cpp",
+			null
+		],
+		[
 			"A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/Ball.h",
 			"MU",
 			"EWIEGA46WW/moc_Ball.cpp",
@@ -572,6 +578,11 @@
 	"SETTINGS_FILE" : "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/ViSM_Comp3_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/BSplineSurface.cpp",
+			"MU",
+			null
+		],
 		[
 			"A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/Ball.cpp",
 			"MU",

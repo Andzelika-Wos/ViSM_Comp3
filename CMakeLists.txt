@@ -29,6 +29,8 @@ qt_add_executable(ViSM_Comp3
     PhysicsBody.h PhysicsBody.cpp
     Ball.h Ball.cpp
     Terrain.h Terrain.cpp
+    BSplineSurface.h
+    BSplineSurface.cpp
 )
 # Define the shader files
 set(SHADER_FILES

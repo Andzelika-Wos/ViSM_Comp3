@@ -17,7 +17,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
 				"parent" : 0
 			}
 		]
@@ -33,8 +39,14 @@
 				"ViSM_Comp3.exe"
 			],
 			"targetId" : "ViSM_Comp3::@6890427a1f51a3e7e1df",
-			"targetIndex" : 0,
+			"targetIndex" : 5,
 			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"scriptFile" : "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/deploy_ViSM_Comp3_a595588476.cmake",
+			"type" : "script"
 		}
 	],
 	"paths" : 

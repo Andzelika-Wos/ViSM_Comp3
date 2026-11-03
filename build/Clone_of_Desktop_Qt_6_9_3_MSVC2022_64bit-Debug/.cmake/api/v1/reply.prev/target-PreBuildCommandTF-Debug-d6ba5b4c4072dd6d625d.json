@@ -18,13 +18,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 125,
+				"line" : 118,
 				"parent" : 0
 			}
 		]
 	},
-	"id" : "PreBuildCommandTV::@6890427a1f51a3e7e1df",
-	"name" : "PreBuildCommandTV",
+	"id" : "PreBuildCommandTF::@6890427a1f51a3e7e1df",
+	"name" : "PreBuildCommandTF",
 	"paths" : 
 	{
 		"build" : ".",
@@ -52,13 +52,13 @@
 		{
 			"backtrace" : 1,
 			"isGenerated" : true,
-			"path" : "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTV",
+			"path" : "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTF",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTV.rule",
+			"path" : "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTF.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

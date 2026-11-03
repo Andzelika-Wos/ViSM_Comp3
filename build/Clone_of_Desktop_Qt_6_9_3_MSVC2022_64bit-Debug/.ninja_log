@@ -1,40 +1,132 @@
 # ninja log v6
-2	306	8154351006768412	CMakeFiles/ViSM_Comp3.dir/main.cpp.obj	8adf8efb2f3da9ce
-307	514	8154351009812754	ViSM_Comp3.exe	da8f833ad6d9bbe6
-9	115	8154356260042082	CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
-9	115	8154356260042082	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
-16	121	8154356260117084	CMakeFiles/PreBuildCommandCV	9b47a914786647f0
-16	121	8154356260117084	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCV	9b47a914786647f0
-24	133	8154356260192144	CMakeFiles/PreBuildCommandTF	1606d014c238068f
-24	133	8154356260192144	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTF	1606d014c238068f
-31	135	8154356260262183	CMakeFiles/PreBuildCommandTV	7046e160ba85d711
-31	135	8154356260262183	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTV	7046e160ba85d711
-135	478	8154356264213283	ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
-135	478	8154356264213283	ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
-135	478	8154356264213283	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
-135	478	8154356264213283	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
-482	512	8154356265027266	.qt/rcc/qrc_ViSM_Comp3.cpp	fdf6bd057b9af9b3
-482	512	8154356265027266	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/qrc_ViSM_Comp3.cpp	fdf6bd057b9af9b3
+524	3914	8154356265197397	CMakeFiles/ViSM_Comp3.dir/main.cpp.obj	416b06b3caa2cea5
+2502	2671	8154455131170247	ViSM_Comp3.exe	f7afd94b0c1d366c
+21	130	8154455106364275	CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+21	130	8154455106364275	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+28	130	8154455106439281	CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+512	3948	8154356265082300	CMakeFiles/ViSM_Comp3.dir/ViSM_Comp3_autogen/mocs_compilation.cpp.obj	42c0e36b24f228c0
+28	130	8154455106439281	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+34	144	8154455106494334	CMakeFiles/PreBuildCommandTF	1606d014c238068f
+34	144	8154455106494334	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTF	1606d014c238068f
+40	147	8154455106554339	CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+40	147	8154455106554339	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+147	266	8154455107630077	ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+554	3894	8154356265496363	CMakeFiles/ViSM_Comp3.dir/WorldAxis.cpp.obj	ff38524a5fa8d270
+147	266	8154455107630077	ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+147	266	8154455107630077	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+147	266	8154455107630077	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+266	300	8154455109100183	.qt/rcc/qrc_ViSM_Comp3.cpp	fdf6bd057b9af9b3
+550	3573	8154356265456310	CMakeFiles/ViSM_Comp3.dir/Triangle.cpp.obj	21557eef2cc3b5b9
+266	300	8154455109100183	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/qrc_ViSM_Comp3.cpp	fdf6bd057b9af9b3
 558	1802	8154356265536344	CMakeFiles/ViSM_Comp3.dir/stb_image.cpp.obj	290307026421745e
 542	2400	8154356265375177	CMakeFiles/ViSM_Comp3.dir/Vertex.cpp.obj	6d54bbe6c3bb1990
 546	2921	8154356265415538	CMakeFiles/ViSM_Comp3.dir/Camera.cpp.obj	35c6e96452c1b8c9
-550	3573	8154356265456310	CMakeFiles/ViSM_Comp3.dir/Triangle.cpp.obj	21557eef2cc3b5b9
 566	3625	8154356265616356	CMakeFiles/ViSM_Comp3.dir/ObjMesh.cpp.obj	ef50dc761da5a3e8
 528	3643	8154356265233114	CMakeFiles/ViSM_Comp3.dir/VulkanWindow.cpp.obj	e97147323c3303af
 533	3651	8154356265284156	CMakeFiles/ViSM_Comp3.dir/TriangleSurface.cpp.obj	9d9e59c9ae671d69
 3626	3828	8154356296210729	CMakeFiles/ViSM_Comp3.dir/PhysicsBody.cpp.obj	3d6eea55fa240827
+272	2066	8154444236509120	CMakeFiles/ViSM_Comp3.dir/BSplineSurface.cpp.obj	97ac63ec59c55313
 537	3869	8154356265324643	CMakeFiles/ViSM_Comp3.dir/visualobject.cpp.obj	e754d1ba555f7aa6
 3573	3869	8154356295685295	CMakeFiles/ViSM_Comp3.dir/RollingBall.cpp.obj	e48d608b26338efa
-554	3894	8154356265496363	CMakeFiles/ViSM_Comp3.dir/WorldAxis.cpp.obj	ff38524a5fa8d270
-524	3914	8154356265197397	CMakeFiles/ViSM_Comp3.dir/main.cpp.obj	416b06b3caa2cea5
 562	3916	8154356265576368	CMakeFiles/ViSM_Comp3.dir/HeightMap.cpp.obj	c6efe1a959517a2
-517	3938	8154356265122325	CMakeFiles/ViSM_Comp3.dir/Renderer.cpp.obj	30e65ad57acb9862
-3828	3943	8154356298233270	CMakeFiles/ViSM_Comp3.dir/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/qrc_ViSM_Comp3.cpp.obj	bbf7907ef57fd827
-512	3948	8154356265082300	CMakeFiles/ViSM_Comp3.dir/ViSM_Comp3_autogen/mocs_compilation.cpp.obj	42c0e36b24f228c0
+300	2501	8154455109150207	CMakeFiles/ViSM_Comp3.dir/Renderer.cpp.obj	30e65ad57acb9862
+304	624	8154455109200179	CMakeFiles/ViSM_Comp3.dir/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/qrc_ViSM_Comp3.cpp.obj	bbf7907ef57fd827
 520	4349	8154356265157297	CMakeFiles/ViSM_Comp3.dir/MainWindow.cpp.obj	6bb621c97687b8d7
 1802	4868	8154356277978085	CMakeFiles/ViSM_Comp3.dir/collisionagent.cpp.obj	e91289d3dcdca81b
 2400	5068	8154356283954633	CMakeFiles/ViSM_Comp3.dir/enemy.cpp.obj	c27a5a47005338af
 2921	5362	8154356289167150	CMakeFiles/ViSM_Comp3.dir/beziercurve.cpp.obj	38751650c918429e
 3643	5503	8154356296387937	CMakeFiles/ViSM_Comp3.dir/Ball.cpp.obj	88fd45e84f915b88
 3651	5556	8154356296462931	CMakeFiles/ViSM_Comp3.dir/Terrain.cpp.obj	efb5f730f68b1e1e
-5557	5744	8154356315520012	ViSM_Comp3.exe	f0e97364f84d6e00
+20	111	8154455733064425	CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+20	111	8154455733064425	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+33	119	8154455733189453	CMakeFiles/PreBuildCommandTF	1606d014c238068f
+33	119	8154455733189453	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTF	1606d014c238068f
+27	120	8154455733134432	CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+27	120	8154455733134432	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+38	131	8154455733244437	CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+38	131	8154455733244437	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+131	252	8154455734179526	ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+131	252	8154455734179526	ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+131	252	8154455734179526	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+131	252	8154455734179526	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+252	2326	8154455735386710	CMakeFiles/ViSM_Comp3.dir/Renderer.cpp.obj	30e65ad57acb9862
+2326	2485	8154455756123574	ViSM_Comp3.exe	f7afd94b0c1d366c
+28	128	8154455939638544	CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+28	128	8154455939638544	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+21	128	8154455939563535	CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+21	128	8154455939563535	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+35	137	8154455939703530	CMakeFiles/PreBuildCommandTF	1606d014c238068f
+35	137	8154455939703530	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTF	1606d014c238068f
+43	159	8154455939783530	CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+43	159	8154455939783530	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+159	286	8154455940948809	ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+159	286	8154455940948809	ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+159	286	8154455940948809	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+159	286	8154455940948809	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+286	321	8154455942503921	.qt/rcc/qrc_ViSM_Comp3.cpp	fdf6bd057b9af9b3
+286	321	8154455942503921	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/qrc_ViSM_Comp3.cpp	fdf6bd057b9af9b3
+326	650	8154455942613065	CMakeFiles/ViSM_Comp3.dir/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/qrc_ViSM_Comp3.cpp.obj	bbf7907ef57fd827
+321	2520	8154455942568922	CMakeFiles/ViSM_Comp3.dir/Renderer.cpp.obj	30e65ad57acb9862
+2520	2680	8154455964557385	ViSM_Comp3.exe	f7afd94b0c1d366c
+28	138	8154456109569450	CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+28	138	8154456109569450	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+37	138	8154456109649460	CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+37	138	8154456109649460	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+43	152	8154456109719461	CMakeFiles/PreBuildCommandTF	1606d014c238068f
+43	152	8154456109719461	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTF	1606d014c238068f
+49	156	8154456109779454	CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+49	156	8154456109779454	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+156	276	8154456110849589	ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+156	276	8154456110849589	ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+156	276	8154456110849589	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+156	276	8154456110849589	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+277	2475	8154456112049857	CMakeFiles/ViSM_Comp3.dir/Renderer.cpp.obj	30e65ad57acb9862
+2476	2615	8154456134043021	ViSM_Comp3.exe	f7afd94b0c1d366c
+21	150	8154456334864700	CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+21	150	8154456334864700	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+35	153	8154456335009789	CMakeFiles/PreBuildCommandTF	1606d014c238068f
+35	153	8154456335009789	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTF	1606d014c238068f
+29	160	8154456334939718	CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+29	160	8154456334939718	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+42	165	8154456335074764	CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+42	165	8154456335074764	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+165	286	8154456336304965	ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+165	286	8154456336304965	ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+165	286	8154456336304965	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+165	286	8154456336304965	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+287	319	8154456337795184	.qt/rcc/qrc_ViSM_Comp3.cpp	fdf6bd057b9af9b3
+287	319	8154456337795184	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/qrc_ViSM_Comp3.cpp	fdf6bd057b9af9b3
+323	639	8154456337883179	CMakeFiles/ViSM_Comp3.dir/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/qrc_ViSM_Comp3.cpp.obj	bbf7907ef57fd827
+319	2495	8154456337845163	CMakeFiles/ViSM_Comp3.dir/Renderer.cpp.obj	30e65ad57acb9862
+2495	2658	8154456359605148	ViSM_Comp3.exe	f7afd94b0c1d366c
+19	126	8154456584336949	CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+19	126	8154456584336949	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+34	131	8154456584481955	CMakeFiles/PreBuildCommandTF	1606d014c238068f
+34	131	8154456584481955	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTF	1606d014c238068f
+28	141	8154456584426957	CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+28	141	8154456584426957	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+40	150	8154456584546946	CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+40	150	8154456584546946	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+150	278	8154456585647169	ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+150	278	8154456585647169	ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+150	278	8154456585647169	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+150	278	8154456585647169	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+278	2481	8154456586927331	CMakeFiles/ViSM_Comp3.dir/Renderer.cpp.obj	30e65ad57acb9862
+2481	2620	8154456608960593	ViSM_Comp3.exe	f7afd94b0c1d366c
+20	123	8154456911436327	CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+20	123	8154456911436327	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCF	d6efe4386ffcff4a
+27	132	8154456911511324	CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+27	132	8154456911511324	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandCV	9b47a914786647f0
+34	146	8154456911576338	CMakeFiles/PreBuildCommandTF	1606d014c238068f
+34	146	8154456911576338	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTF	1606d014c238068f
+41	147	8154456911641342	CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+41	147	8154456911641342	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/PreBuildCommandTV	7046e160ba85d711
+147	273	8154456912701457	ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+147	273	8154456912701457	ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+147	273	8154456912701457	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/timestamp	2516210ed6b415d5
+147	273	8154456912701457	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/mocs_compilation.cpp	2516210ed6b415d5
+273	309	8154456914261590	.qt/rcc/qrc_ViSM_Comp3.cpp	fdf6bd057b9af9b3
+273	309	8154456914261590	A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/qrc_ViSM_Comp3.cpp	fdf6bd057b9af9b3
+313	641	8154456914371591	CMakeFiles/ViSM_Comp3.dir/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/qrc_ViSM_Comp3.cpp.obj	bbf7907ef57fd827
+309	2505	8154456914321605	CMakeFiles/ViSM_Comp3.dir/Renderer.cpp.obj	30e65ad57acb9862
+2505	2678	8154456936291418	ViSM_Comp3.exe	f7afd94b0c1d366c

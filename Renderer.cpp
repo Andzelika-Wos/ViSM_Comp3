@@ -3,6 +3,7 @@
 #include <QFile>
 #include <fstream>
 #include "Ball.h"
+#include "BSplineSurface.h"
 #include "Terrain.h"
 #include "VulkanWindow.h"
 #include "WorldAxis.h"
@@ -13,6 +14,7 @@
 #include "stb_image.h"
 #include "ObjMesh.h"
 #include "enemy.h"
+
 
 /*** Renderer class ***/
 Renderer::Renderer(QVulkanWindow *w, bool msaa)
@@ -30,44 +32,39 @@ Renderer::Renderer(QVulkanWindow *w, bool msaa)
         }
     }
 
+    // Objects
     mObjects.push_back(new Triangle());
     mObjects.push_back(new TriangleSurface());
     mObjects.push_back((new WorldAxis()));
-    //mObjects.push_back(new HeightMap());
     mObjects.push_back(new Terrain());
     mObjects.push_back(new ObjMesh(assetPath + "suzanne.obj"));
     mObjects.push_back(new Ball(assetPath + "sphere.obj"));
+    mObjects.push_back(new BSplineSurface());
 
-
-    //mObjects.push_back(new Enemy(assetPath + "sphere.obj"));
-    //mObjects.push_back(new BezierCurve());
-    mObjects.at(2)->setTextureType(1);
-    mObjects.at(4)->setTextureType(2);
-    mObjects.at(1)->setTextureType(0);
-
-
-
+    // Names
     mObjects.at(0)->setName("tri");
     mObjects.at(1)->setName("quad");
     mObjects.at(2)->setName("axis");
-    //mObjects.at(3)->setName("terrain");
     mObjects.at(3)->setName("OtherTerrain");
     mObjects.at(4)->setName("suzanne");
     mObjects.at(5)->setName("Ball");
+    mObjects.at(6)->setName("SplineSurface");
 
+    // Textures
+    mObjects.at(2)->setTextureType(1);
+    mObjects.at(4)->setTextureType(2);
+    mObjects.at(1)->setTextureType(0);
+    mObjects.at(6)->setTextureType(2);
 
-    //mObjects.at(5)->setName("Enemy");
-    //mObjects.at(6)->setName("Bezier");
-    //dynamic_cast<HeightMap*>(mObjects.at(3))->makeTerrain(assetPath + "Heightmap.jpg");
+    // Positions
+    mObjects.at(6)->setPosition(-5.0f, 0.0f, -10.0f);
 
-    //mObjects.at(6)->setPosition(0, -3, 0);
-    //mObjects.at(1)->scale(.1f);
-    //mObjects.at(1)->setPosition(-4200, 0, -900);
-    //mObjects.at(4)->setPosition(10, 0, 200);
-    mObjects.at(4)->rotate(180, 0 ,1, 0);
+    // Scale
+    mObjects.at(6)->scale(3.0f);
 
-
-
+    // Rotation
+    mObjects.at(4)->rotate(180, 0, 1, 0);
+    mObjects.at(6)->rotate(0.0f, 0.0f , 0.0f, 0.0f);
 
     // **************************************
     // Objects in optional map
@@ -85,6 +82,7 @@ Renderer::Renderer(QVulkanWindow *w, bool msaa)
 //Automatically called by Qt on Renderer startup
 void Renderer::initResources()
 {
+
     qDebug("\n ***************************** initResources ******************************************* \n");
 
     VkDevice logicalDevice = mWindow->device();
@@ -102,6 +100,8 @@ void Renderer::initResources()
 	// Create correct buffers for all objects in mObjects with createBuffer() function
     for (auto it=mObjects.begin(); it!=mObjects.end(); it++)
     {
+        qDebug() << "Object in renderer:" << QString::fromStdString((*it)->getName());
+
 		createVertexBuffer(uniAlign, *it);                //New version - more explicit to how Vulkan does it
 		//createBuffer(logicalDevice, uniAlign, *it);         //Old version 
 
