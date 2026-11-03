@@ -1,0 +1,50 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "PreBuildCommandCF::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "PreBuildCommandCV::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "PreBuildCommandTF::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "PreBuildCommandTV::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "ViSM_Comp3_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ViSM_Comp3_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -36,6 +36,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3.exe")
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/deploy_ViSM_Comp3_a595588476.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_COMPONENT MATCHES "^[a-zA-Z0-9_.+-]+$")
     set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")

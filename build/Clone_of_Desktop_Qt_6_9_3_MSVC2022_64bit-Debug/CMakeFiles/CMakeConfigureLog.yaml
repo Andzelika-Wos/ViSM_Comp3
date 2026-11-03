@@ -110,3 +110,163 @@ events:
       Microsoft (R) Incremental Linker Version 14.51.36260.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:340 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:174 (include)"
+      - "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:20 (find_dependency)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    directories:
+      source: "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-01wgh2"
+      binary: "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-01wgh2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-01wgh2'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_82e3a
+        [1/2] C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\HostX64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_82e3a.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_82e3a.dir\\ /FS -c "A:\\School\\Vizualisation and Simulation\\Comps\\ViSM_Comp3\\build\\Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-01wgh2\\src.cxx"
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_82e3a.dir/src.cxx.obj 
+        C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\HostX64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_82e3a.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_82e3a.dir\\ /FS -c "A:\\School\\Vizualisation and Simulation\\Comps\\ViSM_Comp3\\build\\Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-01wgh2\\src.cxx"
+        A:\\School\\Vizualisation and Simulation\\Comps\\ViSM_Comp3\\build\\Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-01wgh2\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:340 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:174 (include)"
+      - "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:20 (find_dependency)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    directories:
+      source: "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-6tyabd"
+      binary: "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-6tyabd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-6tyabd'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_5dd83
+        [1/2] C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\HostX64\\x64\\cl.exe  /nologo /TP   -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_5dd83.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_5dd83.dir\\ /FS -c "A:\\School\\Vizualisation and Simulation\\Comps\\ViSM_Comp3\\build\\Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6tyabd\\CheckFunctionExists.cxx"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_5dd83.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5dd83.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_5dd83.exe /implib:cmTC_5dd83.lib /pdb:cmTC_5dd83.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        \x1b[31mFAILED: \x1b[0mcmTC_5dd83.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_5dd83.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5dd83.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_5dd83.exe /implib:cmTC_5dd83.lib /pdb:cmTC_5dd83.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5dd83.dir\\CheckFunctionExists.cxx.obj /out:cmTC_5dd83.exe /implib:cmTC_5dd83.lib /pdb:cmTC_5dd83.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_5dd83.dir/intermediate.manifest CMakeFiles\\cmTC_5dd83.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:340 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:174 (include)"
+      - "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:333 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:20 (find_dependency)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    directories:
+      source: "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-tzorc8"
+      binary: "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-tzorc8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-tzorc8'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_0d593
+        [1/2] C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\HostX64\\x64\\cl.exe  /nologo /TP   -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0d593.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_0d593.dir\\ /FS -c "A:\\School\\Vizualisation and Simulation\\Comps\\ViSM_Comp3\\build\\Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-tzorc8\\CheckFunctionExists.cxx"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0d593.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0d593.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_0d593.exe /implib:cmTC_0d593.lib /pdb:cmTC_0d593.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        \x1b[31mFAILED: \x1b[0mcmTC_0d593.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0d593.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0d593.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_0d593.exe /implib:cmTC_0d593.lib /pdb:cmTC_0d593.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0d593.dir\\CheckFunctionExists.cxx.obj /out:cmTC_0d593.exe /implib:cmTC_0d593.lib /pdb:cmTC_0d593.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0d593.dir/intermediate.manifest CMakeFiles\\cmTC_0d593.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:340 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake:315 (find_package)"
+      - "CMakeLists.txt:4 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-aizel5"
+      binary: "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-aizel5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-aizel5'
+        
+        Run Build Command(s): C:/Qt/Tools/Ninja/ninja.exe -v cmTC_f763b
+        [1/2] C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\HostX64\\x64\\cl.exe  /nologo /TP -DHAVE_STDATOMIC  -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_f763b.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_f763b.dir\\ /FS -c "A:\\School\\Vizualisation and Simulation\\Comps\\ViSM_Comp3\\build\\Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-aizel5\\src.cxx"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_f763b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f763b.dir\\src.cxx.obj  /out:cmTC_f763b.exe /implib:cmTC_f763b.lib /pdb:cmTC_f763b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...

@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="color_frag.spv">A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/color_frag.spv</file>
+    <file alias="color_vert.spv">A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/color_vert.spv</file>
+    <file alias="texture_frag.spv">A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/texture_frag.spv</file>
+    <file alias="texture_vert.spv">A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/texture_vert.spv</file>
+  </qresource>
+</RCC>
+

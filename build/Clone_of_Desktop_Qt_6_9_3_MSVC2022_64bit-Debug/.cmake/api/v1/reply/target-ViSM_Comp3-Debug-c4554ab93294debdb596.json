@@ -1,0 +1,922 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "ViSM_Comp3.exe"
+		},
+		{
+			"path" : "ViSM_Comp3.pdb"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"add_dependencies",
+			"target_sources",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt_add_resources",
+			"_qt_internal_expose_deferred_files_to_ide",
+			"qt6_finalize_target"
+		],
+		"files" : 
+		[
+			"C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
+			"C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
+			"C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
+			"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
+			"C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"C:/Qt/6.9.3/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:921:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1000,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 671,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 747,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 672,
+				"parent" : 2
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 315,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 57,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 45,
+				"parent" : 10
+			},
+			{
+				"file" : 9,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 46,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 142,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 333,
+				"parent" : 18
+			},
+			{
+				"file" : 6,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 55,
+				"parent" : 20
+			},
+			{
+				"file" : 5,
+				"parent" : 21
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 61,
+				"parent" : 22
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 83,
+				"parent" : 22
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 315,
+				"parent" : 8
+			},
+			{
+				"file" : 11,
+				"parent" : 25
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 55,
+				"parent" : 26
+			},
+			{
+				"file" : 10,
+				"parent" : 27
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 61,
+				"parent" : 28
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 133,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 16,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 485,
+				"parent" : 34
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 405,
+				"parent" : 35
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 2594,
+				"parent" : 36
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 2137,
+				"parent" : 37
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 18,
+				"file" : 12,
+				"line" : 1,
+				"parent" : 39
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 871,
+				"parent" : 40
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 2262,
+				"parent" : 41
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Zc:__cplusplus"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-permissive-"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-utf-8"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "A:/School/Vizualisation and Simulation/Comps/ViSM_Comp3/build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.3/msvc2022_64/include/QtCore"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.3/msvc2022_64/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.3/msvc2022_64/mkspecs/win32-msvc"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.3/msvc2022_64/include/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/VulkanSDK/1.4.328.1/Include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.9.3/msvc2022_64/include/QtWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				20,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				42
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 30,
+			"id" : "PreBuildCommandCF::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "PreBuildCommandCV::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "PreBuildCommandTF::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "PreBuildCommandTV::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ViSM_Comp3_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "ViSM_Comp3_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ViSM_Comp3::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/ViSM_Comp3"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:windows",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "C:\\Qt\\6.9.3\\msvc2022_64\\lib\\Qt6Widgetsd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "C:\\Qt\\6.9.3\\msvc2022_64\\lib\\Qt6Guid.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\Qt\\6.9.3\\msvc2022_64\\lib\\Qt6Cored.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "mpr.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "userenv.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "C:\\Qt\\6.9.3\\msvc2022_64\\lib\\Qt6EntryPointd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "shell32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "d3d11.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "dxgi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "dxguid.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "d3d12.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ViSM_Comp3",
+	"nameOnDisk" : "ViSM_Comp3.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				42,
+				43,
+				48
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				20,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				19,
+				21,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				44,
+				45,
+				46,
+				47
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				49,
+				50
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Renderer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Renderer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "MainWindow.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "MainWindow.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "VulkanWindow.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "VulkanWindow.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "TriangleSurface.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "TriangleSurface.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "visualobject.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "visualobject.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Vertex.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Vertex.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Camera.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Camera.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Triangle.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Triangle.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Input.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "WorldAxis.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "WorldAxis.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Utilities.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "stb_image.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "stb_image.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "HeightMap.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "HeightMap.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "ObjMesh.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "ObjMesh.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "collisionagent.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "collisionagent.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "enemy.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "enemy.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "beziercurve.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "beziercurve.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "RollingBall.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "RollingBall.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "PhysicsBody.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "PhysicsBody.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Ball.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Ball.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Terrain.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Terrain.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/qrc_ViSM_Comp3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 42,
+			"isGenerated" : true,
+			"path" : "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/ViSM_Comp3.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 42,
+			"path" : "color_frag.spv",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 42,
+			"path" : "color_vert.spv",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 42,
+			"path" : "texture_frag.spv",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 42,
+			"path" : "texture_vert.spv",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/.qt/rcc/qrc_ViSM_Comp3.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Clone_of_Desktop_Qt_6_9_3_MSVC2022_64bit-Debug/ViSM_Comp3_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		}
+	],
+	"type" : "EXECUTABLE"
+}
