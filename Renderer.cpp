@@ -57,14 +57,15 @@ Renderer::Renderer(QVulkanWindow *w, bool msaa)
     mObjects.at(6)->setTextureType(2);
 
     // Positions
-    mObjects.at(6)->setPosition(-5.0f, 0.0f, -10.0f);
+    mObjects.at(6)->setPosition(-5.0f, -5.0f, -2.0f);
 
     // Scale
     mObjects.at(6)->scale(3.0f);
 
     // Rotation
     mObjects.at(4)->rotate(180, 0, 1, 0);
-    mObjects.at(6)->rotate(0.0f, 0.0f , 0.0f, 0.0f);
+    mObjects.at(6)->rotate(-30, 1, 0, 0);
+    mObjects.at(6)->rotate(15, 0, 0, 1);
 
     // **************************************
     // Objects in optional map

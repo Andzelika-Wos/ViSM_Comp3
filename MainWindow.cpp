@@ -22,7 +22,7 @@ MainWindow::MainWindow(VulkanWindow *vw, QPlainTextEdit *logWidget)
 
     mLogWidget = logWidget;
     //Sets the colors in the log window
-    mLogWidget->setStyleSheet("color: white ; background-color: #2f2f2f ;");
+    mLogWidget->setStyleSheet("color: white ; background-color: #FF7AC2 ;");
 
     //makes buttons
     QPushButton *grabButton = new QPushButton(tr("&Grab frame"));
@@ -130,7 +130,7 @@ void MainWindow::selectName()
         mVulkanWindow->setSelectedObject(visualObject);
     else {
         QMessageBox msgBox;
-        msgBox.setText("Finner ikke " + QString(mSelectedName.c_str()));
+        msgBox.setText("Couldn't find " + QString(mSelectedName.c_str()));
         msgBox.setIcon(QMessageBox::Warning);
         msgBox.setDefaultButton(QMessageBox::Close);
     }

@@ -192,6 +192,8 @@ void BSplineSurface::makeBiquadraticSurface()
             float normalized_u = (u - mu[d_u]) / (mu[n_u] - mu[d_u]);
             float normalized_v = (v - mv[d_v]) / (mv[n_v + 1] - mv[d_v]);
 
+            qDebug() << "Generated points: " << p0;
+
             // Adds vertex (position, color/normal, UV)
             mVertices.push_back(Vertex(p0, QVector3D(0.f, 1.f, 0.f), QVector2D(normalized_u, normalized_v)));
 
